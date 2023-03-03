@@ -1,0 +1,84 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  background-color: #7454831A;
+      
+             
+        .content-1{
+            justify-content: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 2rem;
+              background-color: #FFFFFF;
+              width: 56rem;
+              height: 55rem;
+              border-radius: 1rem;
+              // box-shadow: 10px 10px 5px #FFFFFF;
+              .img{
+                width: 15rem;
+               }
+              input{
+             height: 50px;
+             width: 320px;
+             outline: none;
+             border-color: 0px 0px #e1d5d5;
+             font-family: Plus Jakarta Sans, Regular;
+            color: #606060;
+        }   
+      button{
+        background-color: #24C8C9;
+        width: 305px;
+        height: 40px;
+        border-radius: 10rem;
+        border-style: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        border-color: #E1E1E1;
+      } 
+        
+    }
+    .footer-text{
+        display: flex;
+     .text-1{
+        font-size: 14px;
+        font-family: Plus Jakarta Sans, Medium;
+     }
+     .k{
+        color: #24C8C9;
+     }
+     
+    }
+     .content-2{
+      background-image: url('../../../assets/Group\ 80759.jpg');
+      width: 43.7rem;
+      height: 55rem;
+      color: #FFFFFF;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+     .head{
+      font-size: 24px;
+      font-family: Plus Jakarta Sans, SemiBold;
+
+     }
+     .head-para{
+      font-family: Plus Jakarta Sans, Medium;
+      font-size: 14px;
+      flex-direction: column;
+     
+     }
+     .last{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 1.9rem;
+      
+     }
+      
+    }
+    }
